@@ -1,0 +1,11 @@
+{
+  "01_python_numpy_foundations.ipynb": "PASS",
+  "02_pandas_data_exploration.ipynb": "PASS",
+  "03_statistics_and_visualization.ipynb": "PASS",
+  "04_data_cleaning.ipynb": "PASS",
+  "05_feature_engineering.ipynb": "PASS",
+  "06_healthcare_classification.ipynb": "PASS",
+  "07_retail_regression_forecasting.ipynb": "PASS",
+  "08_unsupervised_learning.ipynb": "PASS",
+  "09_model_evaluation_storytelling.ipynb": "PASS"
+}

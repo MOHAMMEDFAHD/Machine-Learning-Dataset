@@ -1,0 +1,5 @@
+# Limitations and responsible use
+
+These are entirely synthetic datasets, not clinical records or real retailer transactions. No synthetic classification result establishes diagnostic accuracy, sensitivity, safety, fairness or clinical benefit. False negatives and false positives may have very different consequences in reality; calibration, thresholds and subgroup results from 1,000 synthetic patients cannot justify clinical action. Real-world deployment would require prospective representative datasets, governance, privacy, regulatory evaluation and external validation.
+
+Retail demand is censored by stock, so units sold are not the same as unconstrained demand. The 100-day window can show weekly structure but cannot estimate annual seasonality. Future operational covariates are unavailable unless precommitted. Do not extrapolate commercial ROI or causal promotion effects from this simulator. Synthetic population subgroups may be too small for reliable inference. Repeatedly tuning against the test set invalidates holdout claims. Defect manifest is instructor-only. Numeric and categorical defects are for teaching, not benchmarks of imputation efficacy.

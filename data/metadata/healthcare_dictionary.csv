@@ -1,0 +1,17 @@
+name,description,pandas_dtype,measurement_scale,unit,allowed_values_or_range,missing_policy,role,available_at_prediction_time,leakage_risk,educational_purpose
+patient_id,Patient identifier,object,identifier,none,PAT-0001|PAT-0002|PAT-0003|PAT-0004|PAT-0005|PAT-0006|PAT-0007|PAT-0008|PAT-0009|PAT-0010|PAT-0011|PAT-0012|PAT-0013|PAT-0014|PAT-0015|PAT-0016|PAT-0017|PAT-0018|PAT-0019|PAT-0020,none in clean; defects may introduce missingness,identifier,True,True,nonpredictive key
+age,Age at assessment,int64,ratio,years,18 to 90,none in clean; defects may introduce missingness,predictor,True,False,patient covariate
+bmi,Body mass index,float64,ratio,kg/m²,16.0 to 42.17,none in clean; defects may introduce missingness,predictor,True,False,patient covariate
+smoking_status,Smoking history,object,nominal,category,current|never|former,none in clean; defects may introduce missingness,predictor,True,False,patient covariate
+family_history,Family history indicator,int64,binary nominal,0/1,0 to 1,none in clean; defects may introduce missingness,predictor,True,False,patient covariate
+exposure_history,Fictional exposure indicator,int64,binary nominal,0/1,0 to 1,none in clean; defects may introduce missingness,predictor,True,False,patient covariate
+prior_screenings,Previous screenings,int64,discrete ratio,count,0 to 8,none in clean; defects may introduce missingness,predictor,True,False,patient covariate
+symptom_count,Reported symptoms,int64,discrete ratio,count,0 to 6,none in clean; defects may introduce missingness,predictor,True,False,measurement after latent status
+symptom_severity,Ordinal symptom severity,object,ordinal,low/moderate/high,low|moderate|high,none in clean; defects may introduce missingness,derived,True,False,derived symptom category
+referral_source,Assessment referral,object,nominal,category,routine|specialist|primary_care,none in clean; defects may introduce missingness,predictor,True,False,synthetic intake attribute
+prior_consultations,Prior consultations,int64,discrete ratio,count,0 to 8,none in clean; defects may introduce missingness,predictor,True,False,symptom-correlated measurement
+biomarker_level,Fictional diagnostic marker,float64,continuous ratio,arbitrary units,0.1 to 9.57,none in clean; defects may introduce missingness,predictor,True,False,no clinical interpretation
+imaging_score,Fictional imaging measurement,float64,continuous ratio,arbitrary units,0.1 to 12.485,none in clean; defects may introduce missingness,predictor,True,False,no clinical interpretation
+inflammation_marker,Fictional inflammation marker,float64,continuous ratio,arbitrary units,0.05 to 8.36,none in clean; defects may introduce missingness,predictor,True,False,no clinical interpretation
+temperature_c,Temperature at assessment,float64,continuous interval,°C,35.53 to 38.13,none in clean; defects may introduce missingness,predictor,True,False,true interval-scale example
+cancer_status,Fictional latent disease outcome,int64,binary nominal,0/1,0 to 1,none in clean; defects may introduce missingness,target,False,True,TARGET not clinical diagnosis

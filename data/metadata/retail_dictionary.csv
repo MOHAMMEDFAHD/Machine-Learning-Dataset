@@ -1,0 +1,24 @@
+name,description,pandas_dtype,measurement_scale,unit,allowed_values_or_range,missing_policy,role,available_at_prediction_time,leakage_risk,educational_purpose
+sale_id,Sale observation ID,object,identifier,none,SALE-0001|SALE-0002|SALE-0003|SALE-0004|SALE-0005|SALE-0006|SALE-0007|SALE-0008|SALE-0009|SALE-0010|SALE-0011|SALE-0012|SALE-0013|SALE-0014|SALE-0015|SALE-0016|SALE-0017|SALE-0018|SALE-0019|SALE-0020,none in clean; defects may introduce missingness,identifier,True,True,nonpredictive key
+date,Product-day observation date,object,temporal,YYYY-MM-DD,2026-01-01|2026-01-02|2026-01-03|2026-01-04|2026-01-05|2026-01-06|2026-01-07|2026-01-08|2026-01-09|2026-01-10|2026-01-11|2026-01-12|2026-01-13|2026-01-14|2026-01-15|2026-01-16|2026-01-17|2026-01-18|2026-01-19|2026-01-20,none in clean; defects may introduce missingness,predictor,True,False,chronological splitting
+product_id,Product identifier,object,nominal,category,PROD-01|PROD-02|PROD-03|PROD-04|PROD-05|PROD-06|PROD-07|PROD-08|PROD-09|PROD-10,none in clean; defects may introduce missingness,predictor,True,False,product fixed effect
+category,Product category,object,nominal,category,electronics|home|beauty|sports|books,none in clean; defects may introduce missingness,predictor,True,False,product fixed effect
+unit_price,Listed unit price,float64,continuous ratio,fictional currency/unit,27.83 to 66.32,none in clean; defects may introduce missingness,predictor,True,False,scenario covariate
+unit_cost,Unit procurement cost,float64,continuous ratio,fictional currency/unit,13.32 to 46.21,none in clean; defects may introduce missingness,predictor,True,False,scenario covariate
+inventory_available,Stock available before sales,int64,discrete ratio,units,10 to 64,none in clean; defects may introduce missingness,predictor,True,False,inventory cap
+discount_pct,Planned discount fraction,float64,continuous ratio,fraction,0.0 to 0.2,none in clean; defects may introduce missingness,predictor,True,False,scenario covariate
+advertising_spend,Planned advertising,float64,continuous ratio,fictional currency,0.46 to 99.71,none in clean; defects may introduce missingness,predictor,True,False,scenario covariate
+promotion_type,Planned promotion,object,nominal,category,none|campaign,none in clean; defects may introduce missingness,predictor,True,False,scenario covariate
+shipping_fee,Planned shipping charge,float64,continuous ratio,fictional currency,0.0 to 6.99,none in clean; defects may introduce missingness,predictor,True,False,scenario covariate
+customer_rating,Displayed prior customer rating,float64,ordinal,1–5 stars,2.75 to 5.0,none in clean; defects may introduce missingness,predictor,True,False,scenario covariate
+competitor_price_index,Competitor/reference price ratio,float64,continuous ratio,ratio,0.751 to 1.237,none in clean; defects may introduce missingness,predictor,True,False,scenario covariate
+delivery_delay,Operational delay indicator,int64,binary nominal,0/1,0 to 1,none in clean; defects may introduce missingness,predictor,True,False,scenario covariate only if known in advance
+is_weekend,Weekend calendar indicator,int64,binary nominal,0/1,0 to 1,none in clean; defects may introduce missingness,derived,True,False,known calendar
+promotion_period,Scheduled promotion,int64,binary nominal,0/1,0 to 1,none in clean; defects may introduce missingness,derived,True,False,planned calendar
+temperature_c,Temperature at assessment,float64,continuous interval,°C,12.56 to 34.13,none in clean; defects may introduce missingness,predictor,True,False,true interval-scale example
+units_sold,Realized inventory-constrained units,int64,discrete ratio,units,7 to 64,none in clean; defects may introduce missingness,target,False,True,TARGET; not latent demand
+return_count,Returns realized after sales,int64,discrete ratio,units,0 to 8,none in clean; defects may introduce missingness,derived,False,True,POST-OUTCOME LEAKAGE
+gross_revenue,Units times list price,float64,continuous ratio,fictional currency,285.4 to 4065.92,none in clean; defects may introduce missingness,derived,False,True,POST-OUTCOME LEAKAGE
+discount_amount,Gross times discount,float64,continuous ratio,fictional currency,0.0 to 308.5,none in clean; defects may introduce missingness,derived,False,True,POST-OUTCOME LEAKAGE
+net_sales_revenue,Revenue after discount and refunds,float64,continuous ratio,fictional currency,263.52 to 3844.24,none in clean; defects may introduce missingness,derived,False,True,POST-OUTCOME LEAKAGE
+estimated_gross_margin,Net revenue minus retained-unit cost,float64,continuous ratio,fictional currency,30.95 to 1303.25,none in clean; defects may introduce missingness,derived,False,True,POST-OUTCOME LEAKAGE

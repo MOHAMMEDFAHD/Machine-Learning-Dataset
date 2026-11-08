@@ -1,0 +1,307 @@
+dataset,row_position,original_row_identity,record_identifier,column,original_value,corrupted_value,defect_category,exercise,exact_recovery_possible
+healthcare,956,PAT-0957,PAT-0957,bmi,27.64,nan,MCAR missing,Random missingness,False
+healthcare,138,PAT-0139,PAT-0139,bmi,33.26,nan,MCAR missing,Random missingness,False
+healthcare,750,PAT-0751,PAT-0751,bmi,28.01,nan,MCAR missing,Random missingness,False
+healthcare,63,PAT-0064,PAT-0064,bmi,20.79,nan,MCAR missing,Random missingness,False
+healthcare,89,PAT-0090,PAT-0090,bmi,31.46,nan,MCAR missing,Random missingness,False
+healthcare,461,PAT-0462,PAT-0462,bmi,18.09,nan,MCAR missing,Random missingness,False
+healthcare,622,PAT-0623,PAT-0623,bmi,30.94,nan,MCAR missing,Random missingness,False
+healthcare,600,PAT-0601,PAT-0601,bmi,25.14,nan,MCAR missing,Random missingness,False
+healthcare,297,PAT-0298,PAT-0298,bmi,25.07,nan,MCAR missing,Random missingness,False
+healthcare,33,PAT-0034,PAT-0034,bmi,25.8,nan,MCAR missing,Random missingness,False
+healthcare,693,PAT-0694,PAT-0694,bmi,17.83,nan,MCAR missing,Random missingness,False
+healthcare,181,PAT-0182,PAT-0182,bmi,17.25,nan,MCAR missing,Random missingness,False
+healthcare,215,PAT-0216,PAT-0216,bmi,26.26,nan,MCAR missing,Random missingness,False
+healthcare,797,PAT-0798,PAT-0798,bmi,26.56,nan,MCAR missing,Random missingness,False
+healthcare,328,PAT-0329,PAT-0329,bmi,22.8,nan,MCAR missing,Random missingness,False
+healthcare,164,PAT-0165,PAT-0165,bmi,28.3,nan,MCAR missing,Random missingness,False
+healthcare,513,PAT-0514,PAT-0514,bmi,29.13,nan,MCAR missing,Random missingness,False
+healthcare,254,PAT-0255,PAT-0255,bmi,25.71,nan,MCAR missing,Random missingness,False
+healthcare,617,PAT-0618,PAT-0618,bmi,31.92,nan,MCAR missing,Random missingness,False
+healthcare,521,PAT-0522,PAT-0522,bmi,26.92,nan,MCAR missing,Random missingness,False
+healthcare,674,PAT-0675,PAT-0675,bmi,21.44,nan,MCAR missing,Random missingness,False
+healthcare,819,PAT-0820,PAT-0820,bmi,25.55,nan,MCAR missing,Random missingness,False
+healthcare,42,PAT-0043,PAT-0043,bmi,20.47,nan,MCAR missing,Random missingness,False
+healthcare,216,PAT-0217,PAT-0217,bmi,33.69,nan,MCAR missing,Random missingness,False
+healthcare,749,PAT-0750,PAT-0750,bmi,27.56,nan,MCAR missing,Random missingness,False
+healthcare,608,PAT-0609,PAT-0609,bmi,28.43,nan,MCAR missing,Random missingness,False
+healthcare,115,PAT-0116,PAT-0116,bmi,30.82,nan,MCAR missing,Random missingness,False
+healthcare,269,PAT-0270,PAT-0270,bmi,30.72,nan,MCAR missing,Random missingness,False
+healthcare,868,PAT-0869,PAT-0869,bmi,21.43,nan,MCAR missing,Random missingness,False
+healthcare,801,PAT-0802,PAT-0802,bmi,31.89,nan,MCAR missing,Random missingness,False
+healthcare,701,PAT-0702,PAT-0702,biomarker_level,5.724,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,652,PAT-0653,PAT-0653,biomarker_level,3.053,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,179,PAT-0180,PAT-0180,biomarker_level,3.932,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,907,PAT-0908,PAT-0908,biomarker_level,1.687,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,597,PAT-0598,PAT-0598,biomarker_level,1.484,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,51,PAT-0052,PAT-0052,biomarker_level,4.535,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,399,PAT-0400,PAT-0400,biomarker_level,1.395,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,498,PAT-0499,PAT-0499,biomarker_level,2.584,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,424,PAT-0425,PAT-0425,biomarker_level,4.77,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,589,PAT-0590,PAT-0590,biomarker_level,2.405,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,300,PAT-0301,PAT-0301,biomarker_level,2.651,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,404,PAT-0405,PAT-0405,biomarker_level,1.608,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,350,PAT-0351,PAT-0351,biomarker_level,3.323,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,435,PAT-0436,PAT-0436,biomarker_level,2.052,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,271,PAT-0272,PAT-0272,biomarker_level,3.93,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,34,PAT-0035,PAT-0035,biomarker_level,4.737,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,118,PAT-0119,PAT-0119,biomarker_level,0.995,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,905,PAT-0906,PAT-0906,biomarker_level,6.458,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,890,PAT-0891,PAT-0891,biomarker_level,3.261,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,143,PAT-0144,PAT-0144,biomarker_level,3.197,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,479,PAT-0480,PAT-0480,biomarker_level,2.874,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,64,PAT-0065,PAT-0065,biomarker_level,3.108,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,646,PAT-0647,PAT-0647,biomarker_level,1.253,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,227,PAT-0228,PAT-0228,biomarker_level,6.124,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,15,PAT-0016,PAT-0016,biomarker_level,4.01,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,927,PAT-0928,PAT-0928,biomarker_level,1.256,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,922,PAT-0923,PAT-0923,biomarker_level,5.351,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,78,PAT-0079,PAT-0079,biomarker_level,1.496,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,494,PAT-0495,PAT-0495,biomarker_level,1.866,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,805,PAT-0806,PAT-0806,biomarker_level,2.072,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,758,PAT-0759,PAT-0759,biomarker_level,4.929,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,663,PAT-0664,PAT-0664,biomarker_level,5.572,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,521,PAT-0522,PAT-0522,biomarker_level,1.576,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,31,PAT-0032,PAT-0032,biomarker_level,3.649,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,225,PAT-0226,PAT-0226,biomarker_level,4.135,nan,MAR missing,Observed covariate predicts missingness,False
+healthcare,16,PAT-0017,PAT-0017,inflammation_marker,5.844,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,835,PAT-0836,PAT-0836,inflammation_marker,6.158,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,173,PAT-0174,PAT-0174,inflammation_marker,6.195,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,403,PAT-0404,PAT-0404,inflammation_marker,6.503,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,964,PAT-0965,PAT-0965,inflammation_marker,5.065,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,302,PAT-0303,PAT-0303,inflammation_marker,4.253,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,93,PAT-0094,PAT-0094,inflammation_marker,4.114,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,156,PAT-0157,PAT-0157,inflammation_marker,4.981,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,667,PAT-0668,PAT-0668,inflammation_marker,4.599,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,399,PAT-0400,PAT-0400,inflammation_marker,4.943,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,531,PAT-0532,PAT-0532,inflammation_marker,7.723,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,138,PAT-0139,PAT-0139,inflammation_marker,4.136,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,24,PAT-0025,PAT-0025,inflammation_marker,4.569,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,47,PAT-0048,PAT-0048,inflammation_marker,5.417,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,163,PAT-0164,PAT-0164,inflammation_marker,8.36,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,404,PAT-0405,PAT-0405,inflammation_marker,4.198,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,57,PAT-0058,PAT-0058,inflammation_marker,5.38,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,980,PAT-0981,PAT-0981,inflammation_marker,6.454,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,239,PAT-0240,PAT-0240,inflammation_marker,4.211,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,549,PAT-0550,PAT-0550,inflammation_marker,5.557,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,949,PAT-0950,PAT-0950,inflammation_marker,6.235,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,111,PAT-0112,PAT-0112,inflammation_marker,4.35,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,987,PAT-0988,PAT-0988,inflammation_marker,4.45,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,141,PAT-0142,PAT-0142,inflammation_marker,5.796,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,305,PAT-0306,PAT-0306,inflammation_marker,4.39,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,711,PAT-0712,PAT-0712,inflammation_marker,5.793,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,421,PAT-0422,PAT-0422,inflammation_marker,5.741,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,317,PAT-0318,PAT-0318,inflammation_marker,4.571,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,236,PAT-0237,PAT-0237,inflammation_marker,4.638,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,308,PAT-0309,PAT-0309,inflammation_marker,6.042,nan,MNAR missing,Higher hidden value more likely missing,False
+healthcare,134,PAT-0135,PAT-0135,smoking_status,never, NEVER ,category formatting,Normalize categories,True
+healthcare,658,PAT-0659,PAT-0659,smoking_status,former, FORMER ,category formatting,Normalize categories,True
+healthcare,609,PAT-0610,PAT-0610,smoking_status,former, FORMER ,category formatting,Normalize categories,True
+healthcare,118,PAT-0119,PAT-0119,smoking_status,former, FORMER ,category formatting,Normalize categories,True
+healthcare,825,PAT-0826,PAT-0826,smoking_status,never, NEVER ,category formatting,Normalize categories,True
+healthcare,517,PAT-0518,PAT-0518,smoking_status,current, CURRENT ,category formatting,Normalize categories,True
+healthcare,793,PAT-0794,PAT-0794,smoking_status,former, FORMER ,category formatting,Normalize categories,True
+healthcare,509,PAT-0510,PAT-0510,smoking_status,never, NEVER ,category formatting,Normalize categories,True
+healthcare,476,PAT-0477,PAT-0477,smoking_status,never, NEVER ,category formatting,Normalize categories,True
+healthcare,311,PAT-0312,PAT-0312,smoking_status,never, NEVER ,category formatting,Normalize categories,True
+healthcare,294,PAT-0295,PAT-0295,smoking_status,never, NEVER ,category formatting,Normalize categories,True
+healthcare,698,PAT-0699,PAT-0699,smoking_status,current, CURRENT ,category formatting,Normalize categories,True
+healthcare,582,PAT-0583,PAT-0583,smoking_status,never,unknown_typo,invalid category,Validate vocabulary,True
+healthcare,229,PAT-0230,PAT-0230,smoking_status,never,unknown_typo,invalid category,Validate vocabulary,True
+healthcare,129,PAT-0130,PAT-0130,smoking_status,never,unknown_typo,invalid category,Validate vocabulary,True
+healthcare,635,PAT-0636,PAT-0636,smoking_status,never,unknown_typo,invalid category,Validate vocabulary,True
+healthcare,29,PAT-0030,PAT-0030,smoking_status,never,unknown_typo,invalid category,Validate vocabulary,True
+healthcare,892,PAT-0893,PAT-0893,age,41,-999,invalid numeric,Apply domain constraints,True
+healthcare,39,PAT-0040,PAT-0040,age,69,-999,invalid numeric,Apply domain constraints,True
+healthcare,32,PAT-0033,PAT-0033,age,49,-999,invalid numeric,Apply domain constraints,True
+healthcare,121,PAT-0122,PAT-0122,age,62,-999,invalid numeric,Apply domain constraints,True
+healthcare,555,PAT-0556,PAT-0556,age,58,-999,invalid numeric,Apply domain constraints,True
+healthcare,689,PAT-0690,PAT-0690,age,73,-999,invalid numeric,Apply domain constraints,True
+healthcare,113,PAT-0114,PAT-0114,age,58,-999,invalid numeric,Apply domain constraints,True
+healthcare,606,PAT-0607,PAT-0607,bmi,24.31,not recorded,type mismatch,Coerce numeric,False
+healthcare,554,PAT-0555,PAT-0555,bmi,34.7,not recorded,type mismatch,Coerce numeric,False
+healthcare,584,PAT-0585,PAT-0585,bmi,20.79,not recorded,type mismatch,Coerce numeric,False
+healthcare,212,PAT-0213,PAT-0213,bmi,31.86,not recorded,type mismatch,Coerce numeric,False
+healthcare,536,PAT-0537,PAT-0537,bmi,28.32,not recorded,type mismatch,Coerce numeric,False
+healthcare,386,PAT-0387,PAT-0387,bmi,26.83,not recorded,type mismatch,Coerce numeric,False
+healthcare,561,PAT-0562,PAT-0562,bmi,34.05,not recorded,type mismatch,Coerce numeric,False
+healthcare,440,PAT-0441,PAT-0441,bmi,24.56,not recorded,type mismatch,Coerce numeric,False
+healthcare,225,PAT-0226,PAT-0226,bmi,26.13,9999,corrupted outlier,Investigate extreme values,True
+healthcare,464,PAT-0465,PAT-0465,bmi,38.45,9999,corrupted outlier,Investigate extreme values,True
+healthcare,784,PAT-0785,PAT-0785,bmi,28.25,9999,corrupted outlier,Investigate extreme values,True
+healthcare,660,PAT-0661,PAT-0661,bmi,31.78,9999,corrupted outlier,Investigate extreme values,True
+healthcare,179,PAT-0180,PAT-0180,bmi,29.02,9999,corrupted outlier,Investigate extreme values,True
+healthcare,355,PAT-0356,PAT-0001,patient_id,PAT-0356,PAT-0001,duplicate identifier,Resolve ID collisions,True
+healthcare,740,PAT-0741,PAT-0001,patient_id,PAT-0741,PAT-0001,duplicate identifier,Resolve ID collisions,True
+healthcare,442,PAT-0443,PAT-0001,patient_id,PAT-0443,PAT-0001,duplicate identifier,Resolve ID collisions,True
+healthcare,405,PAT-0406,PAT-0001,patient_id,PAT-0406,PAT-0001,duplicate identifier,Resolve ID collisions,True
+healthcare,520,PAT-0521,PAT-0521,symptom_count,2,-3,logical inconsistency,Validate count nonnegative,True
+healthcare,510,PAT-0511,PAT-0511,symptom_count,1,-3,logical inconsistency,Validate count nonnegative,True
+healthcare,821,PAT-0822,PAT-0822,symptom_count,1,-3,logical inconsistency,Validate count nonnegative,True
+healthcare,271,PAT-0272,PAT-0272,symptom_count,2,-3,logical inconsistency,Validate count nonnegative,True
+healthcare,336,PAT-0337,PAT-0337,symptom_count,1,-3,logical inconsistency,Validate count nonnegative,True
+healthcare,998,PAT-0999,PAT-0002,__whole_row__,"{""patient_id"": ""PAT-0999"", ""age"": 64, ""bmi"": 16.0, ""smoking_status"": ""never"", ""family_history"": 0, ""exposure_history"": 0, ""prior_screenings"": 2, ""symptom_count"": 0, ""symptom_severity"": ""low"", ""referral_source"": ""routine"", ""prior_consultations"": 0, ""biomarker_level"": 0.1, ""imaging_score"": 2.606, ""inflammation_marker"": 1.466, ""temperature_c"": 36.34, ""cancer_status"": 0}",copy of row 1,exact duplicate replacement,Identify duplicates and displaced original rows,True
+healthcare,999,PAT-1000,PAT-0003,__whole_row__,"{""patient_id"": ""PAT-1000"", ""age"": 75, ""bmi"": 31.76, ""smoking_status"": ""former"", ""family_history"": 0, ""exposure_history"": 0, ""prior_screenings"": 2, ""symptom_count"": 3, ""symptom_severity"": ""moderate"", ""referral_source"": ""routine"", ""prior_consultations"": 2, ""biomarker_level"": 5.9, ""imaging_score"": 6.936, ""inflammation_marker"": 3.241, ""temperature_c"": 37.07, ""cancer_status"": 1}",copy of row 2,exact duplicate replacement,Identify duplicates and displaced original rows,True
+retail,851,SALE-0852,SALE-0852,advertising_spend,14.23,nan,MCAR missing,Random missingness,False
+retail,979,SALE-0980,SALE-0980,advertising_spend,2.88,nan,MCAR missing,Random missingness,False
+retail,213,SALE-0214,SALE-0214,advertising_spend,3.0,nan,MCAR missing,Random missingness,False
+retail,597,SALE-0598,SALE-0598,advertising_spend,6.14,nan,MCAR missing,Random missingness,False
+retail,296,SALE-0297,SALE-0297,advertising_spend,7.94,nan,MCAR missing,Random missingness,False
+retail,142,SALE-0143,SALE-0143,advertising_spend,14.15,nan,MCAR missing,Random missingness,False
+retail,61,SALE-0062,SALE-0062,advertising_spend,28.37,nan,MCAR missing,Random missingness,False
+retail,43,SALE-0044,SALE-0044,advertising_spend,25.09,nan,MCAR missing,Random missingness,False
+retail,961,SALE-0962,SALE-0962,advertising_spend,6.92,nan,MCAR missing,Random missingness,False
+retail,187,SALE-0188,SALE-0188,advertising_spend,17.78,nan,MCAR missing,Random missingness,False
+retail,375,SALE-0376,SALE-0376,advertising_spend,24.76,nan,MCAR missing,Random missingness,False
+retail,938,SALE-0939,SALE-0939,advertising_spend,1.97,nan,MCAR missing,Random missingness,False
+retail,957,SALE-0958,SALE-0958,advertising_spend,25.53,nan,MCAR missing,Random missingness,False
+retail,265,SALE-0266,SALE-0266,advertising_spend,25.38,nan,MCAR missing,Random missingness,False
+retail,889,SALE-0890,SALE-0890,advertising_spend,43.5,nan,MCAR missing,Random missingness,False
+retail,756,SALE-0757,SALE-0757,advertising_spend,15.67,nan,MCAR missing,Random missingness,False
+retail,506,SALE-0507,SALE-0507,advertising_spend,9.38,nan,MCAR missing,Random missingness,False
+retail,76,SALE-0077,SALE-0077,advertising_spend,17.71,nan,MCAR missing,Random missingness,False
+retail,266,SALE-0267,SALE-0267,advertising_spend,14.97,nan,MCAR missing,Random missingness,False
+retail,60,SALE-0061,SALE-0061,advertising_spend,16.67,nan,MCAR missing,Random missingness,False
+retail,885,SALE-0886,SALE-0886,advertising_spend,29.64,nan,MCAR missing,Random missingness,False
+retail,328,SALE-0329,SALE-0329,advertising_spend,18.57,nan,MCAR missing,Random missingness,False
+retail,773,SALE-0774,SALE-0774,advertising_spend,8.51,nan,MCAR missing,Random missingness,False
+retail,682,SALE-0683,SALE-0683,advertising_spend,5.21,nan,MCAR missing,Random missingness,False
+retail,740,SALE-0741,SALE-0741,advertising_spend,11.54,nan,MCAR missing,Random missingness,False
+retail,675,SALE-0676,SALE-0676,advertising_spend,50.95,nan,MCAR missing,Random missingness,False
+retail,438,SALE-0439,SALE-0439,advertising_spend,6.36,nan,MCAR missing,Random missingness,False
+retail,822,SALE-0823,SALE-0823,advertising_spend,15.84,nan,MCAR missing,Random missingness,False
+retail,478,SALE-0479,SALE-0479,advertising_spend,26.1,nan,MCAR missing,Random missingness,False
+retail,182,SALE-0183,SALE-0183,advertising_spend,20.36,nan,MCAR missing,Random missingness,False
+retail,269,SALE-0270,SALE-0270,customer_rating,3.71,nan,MAR missing,Observed covariate predicts missingness,False
+retail,489,SALE-0490,SALE-0490,customer_rating,4.39,nan,MAR missing,Observed covariate predicts missingness,False
+retail,52,SALE-0053,SALE-0053,customer_rating,3.62,nan,MAR missing,Observed covariate predicts missingness,False
+retail,278,SALE-0279,SALE-0279,customer_rating,4.35,nan,MAR missing,Observed covariate predicts missingness,False
+retail,58,SALE-0059,SALE-0059,customer_rating,4.8,nan,MAR missing,Observed covariate predicts missingness,False
+retail,59,SALE-0060,SALE-0060,customer_rating,4.09,nan,MAR missing,Observed covariate predicts missingness,False
+retail,461,SALE-0462,SALE-0462,customer_rating,3.78,nan,MAR missing,Observed covariate predicts missingness,False
+retail,686,SALE-0687,SALE-0687,customer_rating,4.34,nan,MAR missing,Observed covariate predicts missingness,False
+retail,48,SALE-0049,SALE-0049,customer_rating,4.17,nan,MAR missing,Observed covariate predicts missingness,False
+retail,472,SALE-0473,SALE-0473,customer_rating,4.39,nan,MAR missing,Observed covariate predicts missingness,False
+retail,909,SALE-0910,SALE-0910,customer_rating,4.22,nan,MAR missing,Observed covariate predicts missingness,False
+retail,464,SALE-0465,SALE-0465,customer_rating,3.94,nan,MAR missing,Observed covariate predicts missingness,False
+retail,671,SALE-0672,SALE-0672,customer_rating,4.53,nan,MAR missing,Observed covariate predicts missingness,False
+retail,694,SALE-0695,SALE-0695,customer_rating,4.31,nan,MAR missing,Observed covariate predicts missingness,False
+retail,470,SALE-0471,SALE-0471,customer_rating,4.08,nan,MAR missing,Observed covariate predicts missingness,False
+retail,683,SALE-0684,SALE-0684,customer_rating,3.88,nan,MAR missing,Observed covariate predicts missingness,False
+retail,267,SALE-0268,SALE-0268,customer_rating,4.14,nan,MAR missing,Observed covariate predicts missingness,False
+retail,469,SALE-0470,SALE-0470,customer_rating,3.74,nan,MAR missing,Observed covariate predicts missingness,False
+retail,672,SALE-0673,SALE-0673,customer_rating,4.07,nan,MAR missing,Observed covariate predicts missingness,False
+retail,61,SALE-0062,SALE-0062,customer_rating,3.73,nan,MAR missing,Observed covariate predicts missingness,False
+retail,478,SALE-0479,SALE-0479,customer_rating,4.45,nan,MAR missing,Observed covariate predicts missingness,False
+retail,908,SALE-0909,SALE-0909,customer_rating,4.42,nan,MAR missing,Observed covariate predicts missingness,False
+retail,906,SALE-0907,SALE-0907,customer_rating,3.58,nan,MAR missing,Observed covariate predicts missingness,False
+retail,463,SALE-0464,SALE-0464,customer_rating,3.73,nan,MAR missing,Observed covariate predicts missingness,False
+retail,696,SALE-0697,SALE-0697,customer_rating,4.62,nan,MAR missing,Observed covariate predicts missingness,False
+retail,887,SALE-0888,SALE-0888,customer_rating,4.28,nan,MAR missing,Observed covariate predicts missingness,False
+retail,677,SALE-0678,SALE-0678,customer_rating,3.79,nan,MAR missing,Observed covariate predicts missingness,False
+retail,690,SALE-0691,SALE-0691,customer_rating,4.76,nan,MAR missing,Observed covariate predicts missingness,False
+retail,476,SALE-0477,SALE-0477,customer_rating,3.64,nan,MAR missing,Observed covariate predicts missingness,False
+retail,486,SALE-0487,SALE-0487,customer_rating,3.73,nan,MAR missing,Observed covariate predicts missingness,False
+retail,57,SALE-0058,SALE-0058,customer_rating,3.46,nan,MAR missing,Observed covariate predicts missingness,False
+retail,688,SALE-0689,SALE-0689,customer_rating,4.49,nan,MAR missing,Observed covariate predicts missingness,False
+retail,62,SALE-0063,SALE-0063,customer_rating,4.66,nan,MAR missing,Observed covariate predicts missingness,False
+retail,54,SALE-0055,SALE-0055,customer_rating,4.55,nan,MAR missing,Observed covariate predicts missingness,False
+retail,487,SALE-0488,SALE-0488,customer_rating,4.78,nan,MAR missing,Observed covariate predicts missingness,False
+retail,505,SALE-0506,SALE-0506,advertising_spend,28.01,nan,MNAR missing,High hidden spend more likely missing,False
+retail,480,SALE-0481,SALE-0481,advertising_spend,19.55,nan,MNAR missing,High hidden spend more likely missing,False
+retail,400,SALE-0401,SALE-0401,advertising_spend,32.15,nan,MNAR missing,High hidden spend more likely missing,False
+retail,424,SALE-0425,SALE-0425,advertising_spend,22.41,nan,MNAR missing,High hidden spend more likely missing,False
+retail,269,SALE-0270,SALE-0270,advertising_spend,34.36,nan,MNAR missing,High hidden spend more likely missing,False
+retail,427,SALE-0428,SALE-0428,advertising_spend,22.01,nan,MNAR missing,High hidden spend more likely missing,False
+retail,113,SALE-0114,SALE-0114,advertising_spend,29.79,nan,MNAR missing,High hidden spend more likely missing,False
+retail,994,SALE-0995,SALE-0995,advertising_spend,34.86,nan,MNAR missing,High hidden spend more likely missing,False
+retail,569,SALE-0570,SALE-0570,advertising_spend,31.47,nan,MNAR missing,High hidden spend more likely missing,False
+retail,208,SALE-0209,SALE-0209,advertising_spend,21.08,nan,MNAR missing,High hidden spend more likely missing,False
+retail,568,SALE-0569,SALE-0569,advertising_spend,34.79,nan,MNAR missing,High hidden spend more likely missing,False
+retail,190,SALE-0191,SALE-0191,advertising_spend,19.25,nan,MNAR missing,High hidden spend more likely missing,False
+retail,813,SALE-0814,SALE-0814,advertising_spend,33.4,nan,MNAR missing,High hidden spend more likely missing,False
+retail,232,SALE-0233,SALE-0233,advertising_spend,45.92,nan,MNAR missing,High hidden spend more likely missing,False
+retail,158,SALE-0159,SALE-0159,advertising_spend,29.59,nan,MNAR missing,High hidden spend more likely missing,False
+retail,428,SALE-0429,SALE-0429,advertising_spend,29.01,nan,MNAR missing,High hidden spend more likely missing,False
+retail,408,SALE-0409,SALE-0409,advertising_spend,33.54,nan,MNAR missing,High hidden spend more likely missing,False
+retail,205,SALE-0206,SALE-0206,advertising_spend,33.99,nan,MNAR missing,High hidden spend more likely missing,False
+retail,693,SALE-0694,SALE-0694,advertising_spend,32.07,nan,MNAR missing,High hidden spend more likely missing,False
+retail,56,SALE-0057,SALE-0057,advertising_spend,22.82,nan,MNAR missing,High hidden spend more likely missing,False
+retail,484,SALE-0485,SALE-0485,advertising_spend,99.71,nan,MNAR missing,High hidden spend more likely missing,False
+retail,279,SALE-0280,SALE-0280,advertising_spend,17.63,nan,MNAR missing,High hidden spend more likely missing,False
+retail,467,SALE-0468,SALE-0468,advertising_spend,34.83,nan,MNAR missing,High hidden spend more likely missing,False
+retail,498,SALE-0499,SALE-0499,advertising_spend,19.7,nan,MNAR missing,High hidden spend more likely missing,False
+retail,603,SALE-0604,SALE-0604,advertising_spend,19.11,nan,MNAR missing,High hidden spend more likely missing,False
+retail,416,SALE-0417,SALE-0417,advertising_spend,17.36,nan,MNAR missing,High hidden spend more likely missing,False
+retail,373,SALE-0374,SALE-0374,advertising_spend,22.8,nan,MNAR missing,High hidden spend more likely missing,False
+retail,780,SALE-0781,SALE-0781,advertising_spend,32.17,nan,MNAR missing,High hidden spend more likely missing,False
+retail,97,SALE-0098,SALE-0098,advertising_spend,25.25,nan,MNAR missing,High hidden spend more likely missing,False
+retail,251,SALE-0252,SALE-0252,advertising_spend,22.3,nan,MNAR missing,High hidden spend more likely missing,False
+retail,180,SALE-0181,SALE-0181,category,electronics, ELECTRONICS ,category formatting,Normalize categories,True
+retail,120,SALE-0121,SALE-0121,category,electronics, ELECTRONICS ,category formatting,Normalize categories,True
+retail,472,SALE-0473,SALE-0473,category,beauty, BEAUTY ,category formatting,Normalize categories,True
+retail,154,SALE-0155,SALE-0155,category,books, BOOKS ,category formatting,Normalize categories,True
+retail,414,SALE-0415,SALE-0415,category,books, BOOKS ,category formatting,Normalize categories,True
+retail,105,SALE-0106,SALE-0106,category,electronics, ELECTRONICS ,category formatting,Normalize categories,True
+retail,350,SALE-0351,SALE-0351,category,electronics, ELECTRONICS ,category formatting,Normalize categories,True
+retail,674,SALE-0675,SALE-0675,category,books, BOOKS ,category formatting,Normalize categories,True
+retail,81,SALE-0082,SALE-0082,category,home, HOME ,category formatting,Normalize categories,True
+retail,600,SALE-0601,SALE-0601,category,electronics, ELECTRONICS ,category formatting,Normalize categories,True
+retail,721,SALE-0722,SALE-0722,category,home, HOME ,category formatting,Normalize categories,True
+retail,364,SALE-0365,SALE-0365,category,books, BOOKS ,category formatting,Normalize categories,True
+retail,501,SALE-0502,SALE-0502,category,home,unknown_typo,invalid category,Validate vocabulary,True
+retail,957,SALE-0958,SALE-0958,category,beauty,unknown_typo,invalid category,Validate vocabulary,True
+retail,945,SALE-0946,SALE-0946,category,electronics,unknown_typo,invalid category,Validate vocabulary,True
+retail,689,SALE-0690,SALE-0690,category,books,unknown_typo,invalid category,Validate vocabulary,True
+retail,370,SALE-0371,SALE-0371,category,electronics,unknown_typo,invalid category,Validate vocabulary,True
+retail,621,SALE-0622,SALE-0622,inventory_available,23,-999,invalid numeric,Apply domain constraints,True
+retail,446,SALE-0447,SALE-0447,inventory_available,22,-999,invalid numeric,Apply domain constraints,True
+retail,305,SALE-0306,SALE-0306,inventory_available,44,-999,invalid numeric,Apply domain constraints,True
+retail,538,SALE-0539,SALE-0539,inventory_available,55,-999,invalid numeric,Apply domain constraints,True
+retail,821,SALE-0822,SALE-0822,inventory_available,16,-999,invalid numeric,Apply domain constraints,True
+retail,354,SALE-0355,SALE-0355,inventory_available,11,-999,invalid numeric,Apply domain constraints,True
+retail,863,SALE-0864,SALE-0864,inventory_available,44,-999,invalid numeric,Apply domain constraints,True
+retail,357,SALE-0358,SALE-0358,advertising_spend,19.21,not recorded,type mismatch,Coerce numeric,False
+retail,919,SALE-0920,SALE-0920,advertising_spend,9.28,not recorded,type mismatch,Coerce numeric,False
+retail,141,SALE-0142,SALE-0142,advertising_spend,5.06,not recorded,type mismatch,Coerce numeric,False
+retail,570,SALE-0571,SALE-0571,advertising_spend,1.58,not recorded,type mismatch,Coerce numeric,False
+retail,414,SALE-0415,SALE-0415,advertising_spend,13.58,not recorded,type mismatch,Coerce numeric,False
+retail,946,SALE-0947,SALE-0947,advertising_spend,6.05,not recorded,type mismatch,Coerce numeric,False
+retail,189,SALE-0190,SALE-0190,advertising_spend,6.32,not recorded,type mismatch,Coerce numeric,False
+retail,905,SALE-0906,SALE-0906,advertising_spend,10.18,not recorded,type mismatch,Coerce numeric,False
+retail,397,SALE-0398,SALE-0398,advertising_spend,11.47,9999,corrupted outlier,Investigate extreme values,True
+retail,16,SALE-0017,SALE-0017,advertising_spend,4.4,9999,corrupted outlier,Investigate extreme values,True
+retail,983,SALE-0984,SALE-0984,advertising_spend,21.61,9999,corrupted outlier,Investigate extreme values,True
+retail,112,SALE-0113,SALE-0113,advertising_spend,6.59,9999,corrupted outlier,Investigate extreme values,True
+retail,370,SALE-0371,SALE-0371,advertising_spend,20.52,9999,corrupted outlier,Investigate extreme values,True
+retail,830,SALE-0831,SALE-0001,sale_id,SALE-0831,SALE-0001,duplicate identifier,Resolve ID collisions,True
+retail,885,SALE-0886,SALE-0001,sale_id,SALE-0886,SALE-0001,duplicate identifier,Resolve ID collisions,True
+retail,647,SALE-0648,SALE-0001,sale_id,SALE-0648,SALE-0001,duplicate identifier,Resolve ID collisions,True
+retail,592,SALE-0593,SALE-0001,sale_id,SALE-0593,SALE-0001,duplicate identifier,Resolve ID collisions,True
+retail,41,SALE-0042,SALE-0042,date,2026-01-05,05/01/2026,date format,Parse explicit day-first dates,True
+retail,208,SALE-0209,SALE-0209,date,2026-01-21,21/01/2026,date format,Parse explicit day-first dates,True
+retail,344,SALE-0345,SALE-0345,date,2026-02-04,04/02/2026,date format,Parse explicit day-first dates,True
+retail,826,SALE-0827,SALE-0827,date,2026-03-24,24/03/2026,date format,Parse explicit day-first dates,True
+retail,859,SALE-0860,SALE-0860,date,2026-03-27,27/03/2026,date format,Parse explicit day-first dates,True
+retail,383,SALE-0384,SALE-0384,date,2026-02-08,08/02/2026,date format,Parse explicit day-first dates,True
+retail,940,SALE-0941,SALE-0941,date,2026-04-05,05/04/2026,date format,Parse explicit day-first dates,True
+retail,83,SALE-0084,SALE-0084,date,2026-01-09,09/01/2026,date format,Parse explicit day-first dates,True
+retail,878,SALE-0879,SALE-0879,date,2026-03-29,29/03/2026,date format,Parse explicit day-first dates,True
+retail,300,SALE-0301,SALE-0301,date,2026-01-31,31/01/2026,date format,Parse explicit day-first dates,True
+retail,765,SALE-0766,SALE-0766,date,2026-03-18,18/03/2026,date format,Parse explicit day-first dates,True
+retail,253,SALE-0254,SALE-0254,date,2026-01-26,26/01/2026,date format,Parse explicit day-first dates,True
+retail,91,SALE-0092,SALE-0092,date,2026-01-10,10/01/2026,date format,Parse explicit day-first dates,True
+retail,925,SALE-0926,SALE-0926,date,2026-04-03,03/04/2026,date format,Parse explicit day-first dates,True
+retail,987,SALE-0988,SALE-0988,date,2026-04-09,09/04/2026,date format,Parse explicit day-first dates,True
+retail,11,SALE-0012,SALE-0012,date,2026-01-02,02/01/2026,date format,Parse explicit day-first dates,True
+retail,406,SALE-0407,SALE-0407,date,2026-02-10,10/02/2026,date format,Parse explicit day-first dates,True
+retail,399,SALE-0400,SALE-0400,date,2026-02-09,09/02/2026,date format,Parse explicit day-first dates,True
+retail,701,SALE-0702,SALE-0702,date,2026-03-12,12/03/2026,date format,Parse explicit day-first dates,True
+retail,748,SALE-0749,SALE-0749,date,2026-03-16,16/03/2026,date format,Parse explicit day-first dates,True
+retail,910,SALE-0911,SALE-0911,return_count,1,51,logical inconsistency,Check returns versus sales,True
+retail,709,SALE-0710,SALE-0710,return_count,0,28,logical inconsistency,Check returns versus sales,True
+retail,683,SALE-0684,SALE-0684,return_count,1,55,logical inconsistency,Check returns versus sales,True
+retail,880,SALE-0881,SALE-0881,return_count,1,40,logical inconsistency,Check returns versus sales,True
+retail,268,SALE-0269,SALE-0269,return_count,0,35,logical inconsistency,Check returns versus sales,True
+retail,998,SALE-0999,SALE-0002,__whole_row__,"{""sale_id"": ""SALE-0999"", ""date"": ""2026-04-10"", ""product_id"": ""PROD-09"", ""category"": ""sports"", ""unit_price"": 28.36, ""unit_cost"": 21.28, ""inventory_available"": 56, ""discount_pct"": 0.0, ""advertising_spend"": 9.88, ""promotion_type"": ""none"", ""shipping_fee"": 3.99, ""customer_rating"": 4.74, ""competitor_price_index"": 0.99, ""delivery_delay"": 1, ""is_weekend"": 0, ""promotion_period"": 0, ""temperature_c"": 18.52, ""units_sold"": 56, ""return_count"": 1, ""gross_revenue"": 1588.16, ""discount_amount"": 0.0, ""net_sales_revenue"": 1559.8, ""estimated_gross_margin"": 389.22}",copy of row 1,exact duplicate replacement,Identify duplicates and displaced original rows,True
+retail,999,SALE-1000,SALE-0003,__whole_row__,"{""sale_id"": ""SALE-1000"", ""date"": ""2026-04-10"", ""product_id"": ""PROD-10"", ""category"": ""books"", ""unit_price"": 36.25, ""unit_cost"": 22.01, ""inventory_available"": 31, ""discount_pct"": 0.0, ""advertising_spend"": 12.67, ""promotion_type"": ""none"", ""shipping_fee"": 3.99, ""customer_rating"": 4.36, ""competitor_price_index"": 1.056, ""delivery_delay"": 0, ""is_weekend"": 0, ""promotion_period"": 0, ""temperature_c"": 17.06, ""units_sold"": 31, ""return_count"": 1, ""gross_revenue"": 1123.75, ""discount_amount"": 0.0, ""net_sales_revenue"": 1087.5, ""estimated_gross_margin"": 427.3}",copy of row 2,exact duplicate replacement,Identify duplicates and displaced original rows,True
