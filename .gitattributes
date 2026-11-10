@@ -1,0 +1,3 @@
+# Keep CSV bytes identical on every OS (no CRLF conversion)
+*.csv -text
+*.ipynb -text

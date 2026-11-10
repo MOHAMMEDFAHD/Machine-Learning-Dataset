@@ -33,6 +33,6 @@ def inject_data_quality_issues(df,name,seed=20261110):
 def main():
  allm=[]
  for name in ['healthcare','retail']:
-  df=pd.read_csv(ROOT/f'data/clean/{name}_clean.csv'); raw,m=inject_data_quality_issues(df,name); raw.to_csv(ROOT/f'data/raw/{name}_raw.csv',index=False);allm.append(m)
- pd.concat(allm,ignore_index=True).to_csv(ROOT/'data/metadata/defect_manifest.csv',index=False)
+  df=pd.read_csv(ROOT/f'data/clean/{name}_clean.csv'); raw,m=inject_data_quality_issues(df,name); raw.to_csv(ROOT/f'data/raw/{name}_raw.csv',index=False,lineterminator='\n');allm.append(m)
+ pd.concat(allm,ignore_index=True).to_csv(ROOT/'data/metadata/defect_manifest.csv',index=False,lineterminator='\n')
 if __name__=='__main__':main()

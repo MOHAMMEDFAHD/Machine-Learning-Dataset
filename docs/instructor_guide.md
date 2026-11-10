@@ -9,3 +9,8 @@ Split before learning imputation, scaling, category encoding, feature selection 
 Compare dummy baselines before logistic, ridge or trees; use ROC-AUC/PR, confusion matrices, sensitivity/specificity and calibration for classification; MAE/RMSE/R² and residual plots for regression. Consider false-negative versus false-positive costs, subgroup sample sizes and uncertainty. Report synthetic-only findings as Observation → Interpretation → Evidence → Uncertainty → Recommendation. Never claim real clinical or commercial validity.
 
 To extend reproducibly, add a separately versioned optional generator with its own seed and tests; never append to the canonical 1,000-row CSVs. Re-run `python src/generate_datasets.py`, `python src/inject_defects.py`, `python src/validate_datasets.py`, `python -m pytest -q` and notebooks. The manifest records all injected changes; exact duplicate replacements deliberately displace two visible identities per raw file. Instructor must retain clean versions and manifest to reconstruct them.
+
+
+## Reference cleaning solution
+
+`python src/clean_data.py` repairs every injected defect using only the raw file and the data dictionary, writes a repair log and grades the result against the clean file. Use it to check learner solutions, not as learner input. It deliberately stops at NaN: cleaning flags invalid values, while imputation is a learned step that belongs inside a Pipeline fitted on the training split. Expected grade: zero wrong values outside the ID column; colliding IDs are re-keyed (for example `PAT-0001-DUP1`) because their true identity cannot be recovered from the raw file alone.
